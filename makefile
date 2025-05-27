@@ -9,8 +9,8 @@ echo-server:
 	cd server; make; cd ..
 
 clean:
-	cd echo-client; make clean; cd ..
-	cd echo-server; make clean; cd ..
+	cd client; make clean; cd ..
+	cd server; make clean; cd ..
 
 install:
 	sudo cp bin/echo-client /usr/local/sbin
